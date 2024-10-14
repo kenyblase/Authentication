@@ -5,7 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "NODE_ENV=development node --watch --env-file=.env ./backend/server.js",
-		"start": "NODE_ENV=production node --watch --env-file=.env backend/server.js",
+		"start": "NODE_ENV=production backend/server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
 	},
 	"keywords": [],
